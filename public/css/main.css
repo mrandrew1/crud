@@ -1,0 +1,117 @@
+.wrapper {
+  width: 60%;
+  margin: auto;
+  max-width: 800px;
+}
+
+.header {
+  margin: 30px auto;
+  text-align: center;
+}
+
+.table__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 2px solid #ccc;
+}
+
+.table__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-bottom: 1px solid black;
+}
+
+.table__row:last-child {
+  border-bottom: 0;
+}
+
+.table__row .table__cell {
+  padding: 10px;
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.form {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.form__wrapper {
+  width: 400px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.form__input {
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+
+.button {
+  background: #a4a4a4;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: all .6s;
+  transition: all .6s;
+  padding: 5px;
+}
+
+.button:hover {
+  background: black;
+  color: white;
+}
+
+.button.hidden {
+  display: none;
+}
+
+.alert {
+  display: none;
+  text-align: center;
+}
+
+.alert.shown {
+  display: block;
+}
+
+.alert2 {
+  display: none;
+  text-align: center;
+}
+
+.alert2.shown {
+  display: block;
+}
