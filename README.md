@@ -1,7 +1,15 @@
 # crud laravel app with api
 This is a laravel crud app made with blades and ajax
 
-This app also has an api. There are endpoints:
+to use this app:
+1. clone git or download the .zip-file in your directory 
+2. write "composer update" in your directory 
+3. There is the SQL file in the package. You should dump it into your database
+4. you can use app or api
+
+
+This app also has an api. You can 
+There are endpoints:
 
 //to get the table:
 
