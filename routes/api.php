@@ -16,3 +16,11 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+//получение списка
+Route::get('/children', 'ApiController@get')->name('get');
+//создание записи
+Route::post('/children', 'ApiController@create')->name('create');
+//удаление
+Route::delete('/children/{id}', 'ApiController@del')->name('del');
+//изменение
+Route::put('/children/{id}', 'ApiController@correct')->name('correct');
