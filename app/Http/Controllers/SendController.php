@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use App\Children;
 use Illuminate\Http\Request;
-use Illuminate\Mail\Message;
 
 class SendController extends Controller
 {
