@@ -15,15 +15,18 @@ There are endpoints:
 
 GET('/children')
 
+
 //to add a note: it returns whole table after adding new note
 
 you should add params:  name, lastname, city
 
 POST('/children')
 
+
 //to delete a note: it returns whole table after deleting the note
 
 DELETE('/children/{id}')
+
 
 //to change a note: it returns whole table after deleting the note
 
