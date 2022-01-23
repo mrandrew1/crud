@@ -29,7 +29,7 @@ POST('/children')
 DELETE('/children/{id}')
 
 
-//to change a note: it returns whole table after deleting the note
+//to change a note: it returns whole table after changing the note
 
 PUT('/children/{id}')
 
