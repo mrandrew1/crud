@@ -8,7 +8,8 @@ to use this app:
 4. you can use app or api
 
 
-This app also has an api. You can 
+This app also has an api.
+
 There are endpoints:
 
 //to get the table:
